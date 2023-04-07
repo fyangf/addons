@@ -22,6 +22,7 @@ from tensorflow_addons.optimizers import KerasLegacyOptimizer
 from typeguard import typechecked
 
 from keras import backend
+# TODO(b/276057783): This accesses private Keras API and could break in future.
 from keras.src.utils import tf_utils
 
 
